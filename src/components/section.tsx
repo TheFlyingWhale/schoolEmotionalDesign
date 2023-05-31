@@ -39,12 +39,12 @@ const Section: React.FC<SectionProps> = ({
 					<h1 className="font-quote text-6xl font-bold text-o-red">
 						{quote}
 					</h1>
-					<p className="text-2xl text-slate-600 leading-normal font-medium">
+					<p className="text-2xl text-slate-600 leading-normal font">
 						{description}
 					</p>
 				</span>
 
-				<span className="flex text-lg flex-col gap-1">
+				<span className="flex text-lg flex-col text-slate-600 gap-1">
 					<h2>{bookTitle}</h2>
 					<p className="text-sm">
 						by <span className="text-o-red">{author}</span>
